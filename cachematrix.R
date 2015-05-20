@@ -2,11 +2,11 @@
 ## These functions improve performance by caching
 ## the result of matrix inversion for later use by your program.
 
-## Function to create a new cached matrix
+## Function to create a new cached matrix object
 
 makeCacheMatrix <- function(x = matrix()) {
     
-    # variable used to hold the cached result
+    # variable used to hold the cached result of matrix inversion
     m <- NULL
     
     # function to set the value of the matrix
